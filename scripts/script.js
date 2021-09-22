@@ -13,9 +13,13 @@ function calcular(){
     let kids = inputKids.value;
     let time = inputTime.value;
 
-    let qdtTotalSteak = steakPP(time) * adults + (steakPP(time) * kids)
+    let qdtTotalSteak = steakPP(time) * adults + (steakPP(time) /2 * kids)
     let qdtTotalBeer = beerPP(time) * adults; 
-    let qdtTotalDrink = drinkPP(time) * adults + (drinkPP(time) * kids)
+    let qdtTotalDrink = drinkPP(time) * adults + (drinkPP(time) /2 * kids)
+
+    resultado.innerHTML = `<p>${qdtTotalSteak/1000} Kg de Carne`
+    resultado.innerHTML += `<p>${Math.ceil(qdtTotalBeer/355)} Latas de Cerveja`
+    resultado.innerHTML += `<p>${Math.ceil(qdtTotalDrink/2000)} Garrafas de Bebida`
 }
 
 function steakPP(time){
