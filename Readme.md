@@ -1,7 +1,7 @@
 # Churrascômetro
 
 
-<img src="exemplo-image.png" alt="exemplo imagem">
+<img src="./img/ex.JPG" alt="imagem">
 
 > Carne - 400gramas por pessoa + 6horas - 650
 > Cerveja - 1200ml por pessoa + 6horas - 2000ml
@@ -42,4 +42,4 @@ NPM START
 
 Esse projeto está sob licença. Veja o arquivo [LICENÇA](LICENSE.md) para mais detalhes.
 
-[⬆ Voltar ao topo](#nome-do-projeto)<br>
+
